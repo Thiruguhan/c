@@ -1,0 +1,39 @@
+
+#include<stdio.h>
+int main()
+{
+    int n;
+    printf("enter the number:");
+    scanf("%d",&n);
+    if(n>=1 && n<=72){
+    switch(n%8)
+    {
+        case 0:
+        printf("side upper\n");
+        break;
+        case 1:
+        printf("lower\n");
+        break;
+        case 2:
+        printf("middle\n");
+        break;
+        case 3:
+        printf("upper\n");
+        break;  
+        case 4:
+        printf("lower\n");
+        break;
+          case 5:
+        printf("middle\n");
+        break;  
+        case 6:
+        printf("upper\n");
+        break;
+        case 7:
+        printf("side lower\n");
+        break;}}
+        else{
+            printf("invalid");
+        }
+    return 0;
+}
