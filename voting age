@@ -1,0 +1,15 @@
+#include<stdio.h>
+ int main(){
+     int age;
+     char a[100];
+     scanf("%s%d",&a,&age);
+     printf("name:%s\n",a);
+     printf("age:%d\n",age);
+     if(age>18){
+         printf("ELIGIBLE TO VOTE\n");
+     }
+     else{
+         printf("NOT ELIGIBLE TO VOTE\n");
+     }
+     return 0;
+ }
