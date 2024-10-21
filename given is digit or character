@@ -1,0 +1,15 @@
+
+ #include<stdio.h>
+ int main (){
+     int a;
+     scanf("%d",&a);
+     char b[1000];
+     if(a==b[1000]) 
+     {
+         printf("the given is character\n");
+     }
+     else{
+         printf("the given is digit\n");
+     }
+     return 0;
+ }
